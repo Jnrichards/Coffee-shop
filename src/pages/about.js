@@ -9,7 +9,7 @@ import Info from "../components/Home/info";
 const AboutPage = ({ data }) => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]}/>
-    <BackgroundSection img={data.img.childImageSharp.fluid} title="about us" styleClass="about-background"/>
+    <BackgroundSection img={data.img.childImageSharp.fluid} title="about us!" styleClass="about-background"/>
     <Info/>
   </Layout>
 );
